@@ -40,6 +40,11 @@ body {
     text-transform: uppercase;
 }
 
+.well-lg {
+    padding: 24px;
+    border-radius: 0px;
+}
+
 /* Home Page Carousel */
 
 header.carousel {
