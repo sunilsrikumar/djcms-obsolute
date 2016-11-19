@@ -52,6 +52,23 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);*/
+    background-repeat: no-repeat;
+}
+
+.carousel-control.left {
+    left: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
 /* panel */
 
 .panel-default {
