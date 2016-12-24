@@ -2,13 +2,12 @@
 {% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
 
 <div class="container">
-  <div class="col-md-9 col-md-offset-1">
       <article class="article"
           {% if article.is_featured %} featured{% endif %}
           {% if not article.published %} unpublished{% endif %}>
 
           <div class="post-preview">
-          <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">
+            <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">
           <h3 class="post-title">
             {% render_model article "title" "" "" "striptags" %}
           </h3>
@@ -35,4 +34,3 @@
           {% endif %}
       </article>
     </div>
-</div>
